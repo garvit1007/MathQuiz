@@ -3,13 +3,24 @@ body
 	background: lightblue;
 }
 
-	.login_div1 , .login_div2
-	{
-		background: white;
-		padding: 10px;
-		float: none;
-		border-radius: 15px;
-	}
+h1
+{
+	margin-left: 450px;
+	color: orange;
+}
+
+.login_div1 , .login_div2
+{
+	background: white;
+	padding-left: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 50px;
+	float: none;
+	border-radius: 15px;
+	text-align: center;
+	margin-left: 430px;
+}
 
 
 #player1_name , #player2_name
@@ -17,7 +28,7 @@ body
 	display: inline-block;
 	margin-left: 20px;
 }
-#word
+#digit_1 , #digit_2
 {
 	width: 60%;
 }
@@ -33,4 +44,8 @@ border-top: 10px solid #AA4465;
 padding: 10px;
 float: none;
 text-align: left;
+}
+#log_in_button
+{
+	margin-left: 450px;
 }
